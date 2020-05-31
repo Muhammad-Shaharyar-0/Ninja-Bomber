@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e225ffa1b8f4bd44eb1af7e7b49d51b5, type: 3}
+  m_Name: Player1Brain
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  playerNumber: 1
+  playerGO: {fileID: 0}
+  playerScore: {fileID: 11400000, guid: df1e7bbb4935d5e4ca07cd9ec5f55e29, type: 2}
+  maxActiveBombs: {fileID: 11400000, guid: bb297390f49cf7e4798b1856250077ad, type: 2}
+  BlocksDestroyed: {fileID: 11400000, guid: 4824b6163b466864d9a2028db4b0718f, type: 2}
+  HighScore: {fileID: 11400000, guid: 0e1722431f2dd0043aee2660098675dc, type: 2}
+  MovementSpeed: {fileID: 11400000, guid: 301e421e84a3939498e188de93ac25b9, type: 2}
+  upKey: 119
+  downKey: 115
+  leftKey: 97
+  rightKey: 100
+  bombKey: 32
+  ready: 0
+  lightColor: {r: 0, g: 1, b: 0, a: 1}
+  movementSpeed: {fileID: 11400000, guid: 301e421e84a3939498e188de93ac25b9, type: 2}
+  bombPrefab: {fileID: 1263393761950994, guid: c327be217ed53114bb22f8c2b88f7bd7, type: 3}
+  bombPlacementDelay: {fileID: 11400000, guid: db5f931037a075c478aee72c56e837cb, type: 2}
+  nextBombTime: 0
+  activeBombs: []
